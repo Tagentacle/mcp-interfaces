@@ -5,7 +5,3 @@ description = "Tagentacle MCP Interface Definitions — JSON Schema for /mcp/dir
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = []
-
-[build-system]
-requires = ["hatchling"]
-build-backend = "hatchling.build"
