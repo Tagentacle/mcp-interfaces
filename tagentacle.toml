@@ -1,0 +1,9 @@
+[package]
+name = "mcp_interfaces"
+version = "0.1.0"
+description = "MCP interface definitions — JSON Schema for /mcp/directory and other MCP-related Topics"
+type = "interface"
+
+[topics."/mcp/directory"]
+schema = "msg/MCPServerDescription.json"
+description = "MCP server discovery — MCPServerDescription published by MCP Server Nodes and Gateway"
