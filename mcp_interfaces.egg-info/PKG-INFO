@@ -1,10 +1,17 @@
+Metadata-Version: 2.4
+Name: mcp-interfaces
+Version: 0.1.0
+Summary: Tagentacle MCP Interface Definitions — JSON Schema for /mcp/directory Topic
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: license-file
+
 # MCP Interfaces
 
-> **The ROS of AI Agents** — System-level message schema definitions for the Tagentacle bus.
+> **The ROS of AI Agents** — MCP-related message schema definitions for the Tagentacle bus.
 
-This is a Tagentacle **interface package** (`type = "interface"`) that defines JSON Schema contracts for **system-level** Topics only.
-
-> **Q28 Positioning**: This package is analogous to ROS `std_msgs` — it contains only system/infrastructure schemas. Application-level schemas (ChatInput, ChatOutput, MemorySnapshot, etc.) are defined inline within each application package.
+This is a Tagentacle **interface package** (`type = "interface"`) that defines the JSON Schema contracts for MCP-related Topics.
 
 ## Message Definitions
 
