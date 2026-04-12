@@ -49,6 +49,11 @@
     "publisher_node_id": {
       "type": "string",
       "description": "The node_id of the node that published this entry (Gateway Node or MCP Server Node itself)."
+    },
+    "auth_required": {
+      "type": "boolean",
+      "default": false,
+      "description": "Whether this MCP Server requires authentication (e.g., TACL authorization) for tool calls."
     }
   },
   "additionalProperties": false
