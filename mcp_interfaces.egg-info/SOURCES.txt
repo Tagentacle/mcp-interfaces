@@ -1,7 +1,0 @@
-LICENSE
-README.md
-pyproject.toml
-mcp_interfaces.egg-info/PKG-INFO
-mcp_interfaces.egg-info/SOURCES.txt
-mcp_interfaces.egg-info/dependency_links.txt
-mcp_interfaces.egg-info/top_level.txt
